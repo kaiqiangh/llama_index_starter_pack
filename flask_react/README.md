@@ -1,0 +1,1 @@
+docker build -t law_demo . && docker run -d -p 5601:5601 -p 3000:3000 --name law_demo law_demo
